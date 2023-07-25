@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="search" placeholder="Search for a city..." spellcheck="false">
+    </div>
+    <div class="error">
+      <p>Invalid City Name!!</p>
+    </div>
+    <div class="weather">
+      <div class="cityDate">  <!-- Update -->
+        <h2 id="city">New Delhi, India</h2>
+        <p id="current_date">Thursday 4 March 2022</p>
+      </div>
+      <div id="degree">  <!-- Update -->
+        <h1>22°c</h1>
+      </div>
+      <div class="details">
+        <h2 id="description">Sunny</h2>  <!-- Update -->
+        <br>
+        <p class="minmax">18°c / 22°c</p> <!-- Update -->
+      </div>
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+</html>
